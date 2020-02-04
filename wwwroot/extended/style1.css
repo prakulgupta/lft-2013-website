@@ -1,0 +1,174 @@
+body
+{
+	background-color : white ;
+}
+
+@font-face
+{
+	font-family : MyFont ;
+	src:url('Our_Font.ttf') ;
+}
+
+.p1
+{
+	font-family : Monotype Corsiva ;
+}
+
+h1
+{
+	font-family : "Times New Roman" ;
+	font-size : 40px ;
+	color : #75CDD2 ;
+	text-shadow : 5px 5px 5px #75CDD2 ;
+}
+
+h2
+{
+	font-family : "Arial Black" ;
+	font-size : 30px ;
+	color : #580000 ;
+}
+
+span
+{
+	font-family : "Times New Roman" ;
+	font-size : 40px ;
+	color : black ;
+	text-shadow : 5px 5px 5px black ;
+}
+
+#div2
+{
+	text-align : left ;
+	font-weight : bold ;
+	width : 50% ;
+	float : left ;
+	height : 50px ;
+}
+
+#div3
+{
+	width : 50% ;
+	text-align : right ;
+	float : right ;
+	height : 50px ;
+}
+#mosc
+{
+	text-align : center ;
+}
+
+.button_like, .button_like:link, .button_like:visited, .button_like:active
+{
+	display : block ;
+	background-color : #75CDD2 ;
+	font-weight:bold;
+	font-size:15px;
+	width:120px;
+	height : 20px ;
+	text-align:center;
+	text-decoration : none ;
+	padding:0;
+	padding-top:3px;
+	padding-bottom:4px;
+	border:1px solid #ffffff;
+	outline:1px solid #75CDD2;
+	margin-left:1px;
+	color : #ffffff ;
+	transition : width 1s, height 1s, background-color 1s, font-size 1s;
+	-moz-transition: width 1s, height 1s, background-color 1s, font-size 1s  ;
+	-webkit-transition : width 1s, height 1s, background-color 1s, font-size 1s  ;
+	-o-transition : width 1s, height 1s, background-color 1s, font-size 1s  ;
+}
+
+.button_like:hover
+{
+	background-color : #6699ff ;
+	outline : 1px solid #6699ff ;
+	width : 200px ;
+	height : 100px ;
+	font-size : 30px ;
+}
+
+.blog:link, .blog:visited
+{
+	font-family : Chiller ;
+	border-width : 2px ;
+	background-color : #00cc00 ;
+	border-style : solid ;
+	color : brown  ;
+	font-size : 40px ;
+	text-decoration : none ;
+	transition : transform 4s ;
+	-moz-transition : -moz-transform 4s ;
+	-webkit-transition : -webkit-transform 4s ;
+	-o-transition : -o-transform 4s ;
+}
+
+.blog:hover
+{
+	transform : rotateY(360deg) ;
+	-moz-transform : rotateY(360deg) ;
+	-webkit-transform : rotateY(360deg) ;
+	-o-transform : rotateY(360deg) ;
+}
+
+.blog:active
+{
+	color : #000000 ;
+}
+
+.team
+{
+	background-color : #c0c0c0 ;
+	top : 100px ;
+	border-style : groove ;
+	border-width : 10px ;
+	border-color : #880000 ;
+	border-radius : 25px ;
+}
+
+ul.team1
+{
+	list-style-type : square ;
+	font-size : 20px ;
+}
+
+.desc
+{
+	font-family : "Monotype Corsiva" ;
+	font-size : 35px ;
+	color : red ;
+	text-align : right ;
+}
+
+#sess
+{
+	font-family:"Trebuchet MS", Arial,sans-serif;
+	width:100%;
+	border-collapse:collapse;
+}
+
+#sess td
+{
+font-size:20px;
+border:1px solid #98bf21;
+padding:3px 7px 2px 7px;
+}
+#sess th 
+{
+border : 1px solid #98bf21 ;
+font-size:25px;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+padding-left : 7px ;
+background-color:#A7C942;
+color:#ffffff;
+}
+.alt
+{
+color:#000000;
+background-color:#999999;
+}
+

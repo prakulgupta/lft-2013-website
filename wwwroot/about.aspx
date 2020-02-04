@@ -1,0 +1,107 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="about.aspx.cs" Inherits="about" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <div class="container">
+        <ul id="q_nav">
+            <li><a href="index.aspx">Home</a></li>
+            <li><a href="#">/</a></li>
+            <li><a href="about.aspx" class="active">About</a></li>
+        </ul>
+        <div class="clear">
+        </div>
+        <div class="divider1">
+        </div>
+        <div class="fixed1">
+            <div class="fb">
+                <a href="https://www.facebook.com/LeadersForTomorrow" target="_blank">
+                    <img src="images/fb.jpg" alt="" /></a></div>
+            <div class="gp">
+                <a href="https://plus.google.com/u/0/communities/113923233116114401308" target="_blank">
+                    <img src="images/gp.jpg" alt="" /></a></div>
+            <div class="tw">
+                <a href="https://twitter.com/tweetlft" target="_blank">
+                    <img src="images/tw.jpg" alt="" /></a></div>
+        </div>
+        <div class="main_heading">
+            <h2>
+                Come Let&#39;s Change the World !</h2>
+        </div>
+        <div class="container_12">
+            <div class="grid_9">
+                <br />
+                <p>
+                    Leaders For Tomorrow Foundation (LFT) is a not for profit youth based movement aimed
+                    at awakening the social consciousness of youth by encouraging them in volunteerism
+                    and skill development. We work in the campuses, conduct social action events and
+                    training programmes to create true LEADERS FOR TOMORROW! This is a platform for
+                    today’s youth to exchange ideas for social change and an opportunity for them to
+                    put these ideas into action. We aim at sensitizing the youth with many relevant
+                    programmes and empower the millions of youth to be the AGENTS OF CHANGE. Our objective
+                    is to develop change makers and channelize the great potential of the youth towards
+                    Nation Building. The base unit of ‘Leaders for Tomorrow’ is its branch in a college
+                    or an educational institution. This smallest unit is called the 'Leaders for Tomorrow
+                    Club.' Each club holds a weekly meeting where they discuss and study one specific
+                    social issue and hold an interactive discussion on various other issues pertaining
+                    to the socio-economic-political fibre of our society. The unit for every state or
+                    central university is called a 'Leaders for Tomorrow Chapter.' Every weekend, Leaders
+                    for Tomorrow Chapters conduct regular programmes. 50% of these programmes focus
+                    on Personality Development and 50% are social development programmes. Apart from
+                    our Campus and Chapter level activities we have annual programmes that bring together
+                    youth from various walks of life. Our Annual programmes comprise of a Youth Leadership
+                    Summit, a Youth Festival for Social Development and a Youth Awakening Rally.
+                </p>
+                <!--text_container start here-->
+                <div class="text_container">
+                    <!--side_border start here-->
+                    <div class="side_border">
+                        <div>
+                            <a href="#" class="button_like">OUR VISION</a>
+                        </div>
+                        <br />
+                         <p>• To awaken the social consciousness of the youth</p>
+                         <p>• To facilitate the youth in harnessing their leadership skills for the betterment of the nation</p>
+                         <p>• To encourage volunteerism & social action among the youth</p>
+                         <p>• To create a global network of active young change makers</p>
+                         <p>• To educate the youth on various social issues & their responsibilities in eradicating them</p>
+                         <p>• To provide a platform for the youth to interact with leaders & young achievers from different fields </p>
+                         <p>• To channelize the potential of the youth in nation building</p>
+                         <p>• To make youth compassionate human beings and ideal LEADERS FOR TOMORROW</p>
+                    </div>
+                    <div class="side_border">
+                        <div>
+                            <a href="#" class="button_like">GENESIS</a>
+                        </div>
+                        <br />
+                        <p>
+                            LFT was started as a campus initiative by our Founder Mr. Binoy Job, who at the
+                            time was teaching journalism in the University of Delhi, with an aim to instil ‘social
+                            responsibility’ in the minds of his students through small social action events
+                            like visit to slums, documentary screenings etc. The organisation grew on to conduct
+                            events at the college, state and national level encouraging the youth to discover
+                            their hidden leadership potential while understanding the major development challenges
+                            of the nation. Leaders For Tomorrow has become a turning point for many young students,
+                            who have gone on to achieve laurels in Development Sector, Public Policy, Journalism,
+                            Management and Leadership. </p>
+                            <p>Today we are one of the fastest growing youth empowerment
+                            movements, bringing about social development by harnessing the talent and energy
+                            of the youth.</p>
+                        <br />
+                    </div>
+                    <!--side_border end here-->
+                </div>
+                <!--text_container end here-->
+            </div>
+            <div class="grid_3">
+                <h3>
+                    Leaders</h3>
+                <!--right_side start here-->
+                <div class="right_side">
+                    <a class="clients">
+                        <img src="images/Team/leaders.jpg" alt="" /></a>
+                </div>
+                <!--right_side end here-->
+            </div>
+        </div>
+    </div>
+</asp:Content>
+
